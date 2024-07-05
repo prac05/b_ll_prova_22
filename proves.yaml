@@ -78,7 +78,7 @@ cells:
         - {color: "green", level: 79.1}    
     link: *grafana-home
   a_etap_bagesllobregat_1:
-    dataRef: "nivell"
+    dataRef: "alarma"
     label:
       separator: "cr"
       units: "m3"
