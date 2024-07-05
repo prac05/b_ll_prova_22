@@ -505,15 +505,7 @@ cells:
 
 
   a_sallent:
-    dataRef: "alarma"
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "white", level: 1}
-    link: *grafana-home
-
-  a_sallent:
-    dataRef: "alarma2"
+    dataRef: ("alarma","alarma2")
     fillColor:
       thresholds:
         - {color: "red", level: 0}
