@@ -93,10 +93,11 @@ cells:
         - {color: "red", level: 0.99}
         - {color: "white", level: 0}    
     link: *grafana-home
-    
+
   a_etap_bagesllobregat_2:
     dataRef: "alarma"
     label:
+      separator: "cr"
     labelColor:
       thresholds:
         - {color: "red", level: 0}
