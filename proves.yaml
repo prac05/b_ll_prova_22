@@ -43,6 +43,8 @@ cells:
 
   a_sallent:
     dataRef: "alarma"
+    label:
+      separator: "cr"
     labelColor:
       thresholds:
         - {color: "red", level: 0.99}
@@ -78,6 +80,10 @@ cells:
   a_etap_bagesllobregat_1:
     dataRef: "alarma"
     label:
+      separator: "cr"
+      units: "m3"
+      decimalPoints: 1
+    label:
     labelColor:
       thresholds:
         - {color: "red", level: 0.99}
@@ -91,13 +97,12 @@ cells:
   a_etap_bagesllobregat_2:
     dataRef: "alarma"
     label:
-      separator: "cr"
     labelColor:
       thresholds:
         - {color: "red", level: 0.99}
-        - {color: "white", level: 0}
+        - {color: "red", level: 0}
     fillColor:
       thresholds:
         - {color: "red", level: 0.99}
-        - {color: "white", level: 0}    
+        - {color: "red", level: 0}    
     link: *grafana-home
