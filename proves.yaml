@@ -47,12 +47,12 @@ cells:
       separator: "cr"
     labelColor:
       thresholds:
-        - {color: "red", level: 0.99}
-        - {color: "white", level: 0}
+        - {color: "red", level: 0}
+        - {color: "white", level: 0.99}
     fillColor:
       thresholds:
-        - {color: "red", level: 0.99}
-        - {color: "white", level: 0} 
+        - {color: "red", level: 0}
+        - {color: "white", level: 0.99} 
     link: *grafana-home
 
   etap_bagesllobregat_1:
