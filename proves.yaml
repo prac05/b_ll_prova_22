@@ -99,10 +99,10 @@ cells:
     label:
     labelColor:
       thresholds:
-        - {color: "red", level: 0.99}
         - {color: "red", level: 0}
+        - {color: "red", level: 0.99}
     fillColor:
       thresholds:
-        - {color: "red", level: 0.99}
-        - {color: "red", level: 0}    
+        - {color: "red", level: 0}
+        - {color: "red", level: 0.99}    
     link: *grafana-home
