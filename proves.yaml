@@ -45,11 +45,11 @@ cells:
     dataRef: "alarma"
     labelColor:
       thresholds:
-        - {color: "red", level: 1}
+        - {color: "red", level: 0.99}
         - {color: "white", level: 0}
     fillColor:
       thresholds:
-        - {color: "red", level: 1}
+        - {color: "red", level: 0.99}
         - {color: "white", level: 0} 
     link: *grafana-home
 
