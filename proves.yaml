@@ -6,6 +6,10 @@ anchorLinks:
       - {color: "green", level: 0}
       - {color: "orange", level: 200}
       - {color: "red", level: 1}
+  - thresholds: &thresholds-slow
+      - {color: "green", level: 0}
+      - {color: "orange", level: 80}
+      - {color: "red", level: 150}
   - flowAnimation: &flowanim-slow
       thresholdOffValue: 2
       thresholdLwrValue: 10
@@ -26,13 +30,8 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
 
-
-
-
 #------------------------------------------------------------------------------
 # DIPÒSITS
-
-
 
   sallent:
     dataRef: "nivell"
@@ -55,7 +54,8 @@ cells:
         - {color: "yellow", level: 2099.9}
         - {color: "green", level: 2100}    
     link: *grafana-home
-etap_bagesllobregat_2:
+
+  etap_bagesllobregat_2:
     dataRef: "alarma"
     label:
       separator: "cr"
@@ -65,6 +65,7 @@ etap_bagesllobregat_2:
       thresholds: *thresholds-slow
     flowAnimation: *flowanim-slow   
     link: *grafana-home
+
   etap_bagesllobregat_1:
     dataRef: "nivell"
     label:
@@ -86,4 +87,3 @@ etap_bagesllobregat_2:
         - {color: "yellow", level: 79}
         - {color: "green", level: 79.1}    
     link: *grafana-home
-    
