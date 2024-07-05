@@ -12,10 +12,10 @@ anchorLinks:
       - {color: "red", level: 1}
   - flowAnimation: &flowanim-slow
       thresholdOffValue: 2
-      thresholdLwrValue: 10
-      thresholdLwrDurationSecs: 1
-      thresholdUprValue: 100
-      thresholdUprDurationSecs: 0.1
+      thresholdLwrValue: 1
+      thresholdLwrDurationSecs: 10
+      thresholdUprValue: 0
+      thresholdUprDurationSecs: 10
 
 #------------------------------------------------------------------------------
 # Panel Config
@@ -62,6 +62,8 @@ cells:
       units: "m3"
       decimalPoints: 1
     labelColor:
+      thresholds: *thresholds-slow
+    fillColor:
       thresholds: *thresholds-slow
     flowAnimation: *flowanim-slow   
     link: *grafana-home
