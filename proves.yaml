@@ -2,10 +2,6 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
-  - thresholds: &thresholds-slow
-      - {color: "green", level: 0}
-      - {color: "orange", level: 80}
-      - {color: "red", level: 150}
   - thresholds: &thresholds-fast
       - {color: "green", level: 0}
       - {color: "orange", level: 200}
@@ -16,21 +12,27 @@ anchorLinks:
       thresholdLwrDurationSecs: 1
       thresholdUprValue: 100
       thresholdUprDurationSecs: 0.1
-  - flowAnimation: &flowanim-fast
-      thresholdOffValue: 10
-      thresholdLwrValue: 100
-      thresholdLwrDurationSecs: 1
-      thresholdUprValue: 600
-      thresholdUprDurationSecs: 0.1
 
 #------------------------------------------------------------------------------
 # Panel Config
 
+gradientMode: "none"
 cellIdPreamble: "cell-"
-gradientMode: "hue"
-tagConfig:
-  condensed: false
 cells: 
+  drawio:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
+  docs:
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
+
+
+
+
+#------------------------------------------------------------------------------
+# DIPÒSITS
+
+
 
   sallent:
     dataRef: "nivell"
@@ -40,20 +42,29 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "red", level: 0, colorMode: "blink"}
-        - {color: "red", level: 899, colorMode: "blink"}
-        - {color: "yellow", level: 900, colorMode: "static"}
-        - {color: "yellow", level: 2099, colorMode: "static"}
-        - {color: "green", level: 2100, colorMode: "static"}
+        - {color: "red", level: 0}
+        - {color: "red", level: 899}
+        - {color: "yellow", level: 900}
+        - {color: "yellow", level: 2099}
+        - {color: "green", level: 2100}
     fillColor:
       thresholds:
-        - {color: "red", level: 0, colorMode: "blink"}
-        - {color: "red", level: 899.9, colorMode: "blink"}
-        - {color: "yellow", level: 900, colorMode: "static"}
-        - {color: "yellow", level: 2099.9, colorMode: "static"}
-        - {color: "green", level: 2100, colorMode: "static"}
+        - {color: "red", level: 0}
+        - {color: "red", level: 899.9}
+        - {color: "yellow", level: 900}
+        - {color: "yellow", level: 2099.9}
+        - {color: "green", level: 2100}    
     link: *grafana-home
-
+sallent:
+    dataRef: "alarma"
+    label:
+      separator: "cr"
+      units: "m3"
+      decimalPoints: 1
+    labelColor:
+      thresholds: *thresholds-slow
+    flowAnimation: *flowanim-slow   
+    link: *grafana-home
   etap_bagesllobregat_1:
     dataRef: "nivell"
     label:
@@ -62,16 +73,17 @@ cells:
       decimalPoints: 1
     labelColor:
       thresholds:
-        - {color: "red", level: 0, colorMode: "blink"}
-        - {color: "red", level: 33.8, colorMode: "blink"}
-        - {color: "yellow", level: 33.9, colorMode: "static"}
-        - {color: "yellow", level: 79, colorMode: "static"}
-        - {color: "green", level: 79.1, colorMode: "static"}
+        - {color: "red", level: 0}
+        - {color: "red", level: 33.8}
+        - {color: "yellow", level: 33.9}
+        - {color: "yellow", level: 79}
+        - {color: "green", level: 79.1}
     fillColor:
       thresholds:
-        - {color: "red", level: 0, colorMode: "blink"}
-        - {color: "red", level: 33.8, colorMode: "blink"}
-        - {color: "yellow", level: 33.9, colorMode: "static"}
-        - {color: "yellow", level: 79, colorMode: "static"}
-        - {color: "green", level: 79.1, colorMode: "static"}
+        - {color: "red", level: 0}
+        - {color: "red", level: 33.8}
+        - {color: "yellow", level: 33.9}
+        - {color: "yellow", level: 79}
+        - {color: "green", level: 79.1}    
     link: *grafana-home
+    
