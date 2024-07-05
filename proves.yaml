@@ -101,7 +101,7 @@ cells:
 
   g0k4u1-eEA1eqAonql-c-9:
     dataRef: "alarma"
-    lineColor:
+    strokeColor:
       thresholds:
         - {color: "red", level: 0}
         - {color: "white", level: 1}
