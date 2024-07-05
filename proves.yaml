@@ -2,12 +2,6 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
-  - thresholds: &thresholds-slow
-      - {color: "red", level: 0}
-      - {color: "white", level: 1}
-  - thresholds: &thresholds-fast
-      - {color: "red", level: 0}
-      - {color: "white", level: 1}
   - flowAnimation: &flowanim-slow
       thresholdOffValue: 2
       thresholdLwrValue: 1
