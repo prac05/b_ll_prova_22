@@ -39,18 +39,15 @@ cells:
         - {color: "green", level: 2100}
     fillColor:
       thresholds:
-        - {color: "orange", level: 0}
-        - {color: "orange", level: 899}
-        - {color: "orange", level: 900}
-        - {color: "orange", level: 2099}
-        - {color: "orange", level: 2100}
+        - {color: "red", level: 0}
+        - {color: "red", level: 899}
+        - {color: "yellow", level: 900}
+        - {color: "yellow", level: 2099}
+        - {color: "green", level: 2100}
     link: *grafana-home
   a_sallent:
     dataRef: "alarma"
-    label:
-      separator: "cr"
-      decimalPoints: 1
-    labelColor:
+    fillColor:
       thresholds:
         - {color: "red", level: 0}
         - {color: "green", level: 1}      
@@ -78,10 +75,7 @@ cells:
     link: *grafana-home
   a_etap_bagesllobregat_1:
     dataRef: "alarma"
-    label:
-      separator: "cr"
-      decimalPoints: 1
-    labelColor:
+    fillColor:
       thresholds:
         - {color: "red", level: 0}
         - {color: "green", level: 1}      
