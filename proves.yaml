@@ -78,9 +78,6 @@ cells:
   a_etap_bagesllobregat_1:
     dataRef: "alarma"
     label:
-      separator: "cr"
-      units: "m3"
-      decimalPoints: 1
     labelColor:
       thresholds:
         - {color: "red", level: 0.99}
@@ -95,7 +92,6 @@ cells:
     dataRef: "alarma"
     label:
       separator: "cr"
-      decimalPoints: 1
     labelColor:
       thresholds:
         - {color: "red", level: 0.99}
