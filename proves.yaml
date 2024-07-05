@@ -39,11 +39,11 @@ cells:
         - {color: "green", level: 2100}
     fillColor:
       thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 899}
-        - {color: "yellow", level: 900}
-        - {color: "yellow", level: 2099}
-        - {color: "green", level: 2100}
+        - {color: "orange", level: 0}
+        - {color: "orange", level: 899}
+        - {color: "orange", level: 900}
+        - {color: "orange", level: 2099}
+        - {color: "orange", level: 2100}
     link: *grafana-home
   a_sallent:
     dataRef: "alarma"
