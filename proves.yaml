@@ -16,13 +16,8 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
 
-
-
-
 #------------------------------------------------------------------------------
 # DIPÒSITS
-
-
 
   sallent:
     dataRef: "nivell"
@@ -45,6 +40,7 @@ cells:
         - {color: "yellow", level: 2099}
         - {color: "green", level: 2100}
     link: *grafana-home
+
   a_sallent:
     dataRef: "alarma"
     label:
@@ -60,6 +56,7 @@ cells:
         - {color: "red", level: 0}
         - {color: "green", level: 0.99} 
     link: *grafana-home
+
   etap_bagesllobregat_1:
     dataRef: "nivell"
     label:
@@ -81,6 +78,7 @@ cells:
         - {color: "yellow", level: 79}
         - {color: "green", level: 79.1}    
     link: *grafana-home
+
   a_etap_bagesllobregat_1:
     dataRef: "alarma"
     label:
@@ -96,6 +94,7 @@ cells:
         - {color: "red", level: 0}
         - {color: "green", level: 0.99}      
     link: *grafana-home
+
   alarmas:
     dataRef: "alarma"
     label:
