@@ -96,3 +96,17 @@ cells:
         - {color: "red", level: 0}
         - {color: "green", level: 0.99}      
     link: *grafana-home
+  alarmas:
+    dataRef: "alarma"
+    label:
+      separator: "cr"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 0.99}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 0.99}      
+    link: *grafana-home
