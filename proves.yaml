@@ -2,20 +2,6 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
-  - thresholds: &thresholds-fast
-      - {color: "green", level: 0}
-      - {color: "orange", level: 200}
-      - {color: "red", level: 1}
-  - thresholds: &thresholds-slow
-      - {color: "green", level: 0}
-      - {color: "orange", level: 80}
-      - {color: "red", level: 1}
-  - flowAnimation: &flowanim-slow
-      thresholdOffValue: 2
-      thresholdLwrValue: 1
-      thresholdLwrDurationSecs: 10
-      thresholdUprValue: 0
-      thresholdUprDurationSecs: 10
 
 #------------------------------------------------------------------------------
 # Panel Config
@@ -30,8 +16,13 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
 
+
+
+
 #------------------------------------------------------------------------------
 # DIPÒSITS
+
+
 
   sallent:
     dataRef: "nivell"
@@ -54,20 +45,17 @@ cells:
         - {color: "yellow", level: 2099.9}
         - {color: "green", level: 2100}    
     link: *grafana-home
-
-  etap_bagesllobregat_2:
+  a_sallent:
     dataRef: "alarma"
     label:
       separator: "cr"
       units: "m3"
       decimalPoints: 1
-    labelColor:
-      thresholds: *thresholds-slow
     fillColor:
-      thresholds: *thresholds-slow
-    flowAnimation: *flowanim-slow   
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "green", level: 1}    
     link: *grafana-home
-
   etap_bagesllobregat_1:
     dataRef: "nivell"
     label:
@@ -88,4 +76,15 @@ cells:
         - {color: "yellow", level: 33.9}
         - {color: "yellow", level: 79}
         - {color: "green", level: 79.1}    
+    link: *grafana-home
+  a_etap_bagesllobregat_1:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"
+      decimalPoints: 1
+    fillColor:
+      thresholds:
+        - {color: "none", level: 0}
+        - {color: "#FFFFFF", level: 33.8}
     link: *grafana-home
