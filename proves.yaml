@@ -9,7 +9,7 @@ anchorLinks:
   - thresholds: &thresholds-slow
       - {color: "green", level: 0}
       - {color: "orange", level: 80}
-      - {color: "red", level: 150}
+      - {color: "red", level: 1}
   - flowAnimation: &flowanim-slow
       thresholdOffValue: 2
       thresholdLwrValue: 10
