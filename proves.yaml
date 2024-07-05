@@ -500,7 +500,7 @@ cells:
     strokeColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "#FFFFFF00", level: 1}
+        - {color: "white", level: 1}
     link: *grafana-home
 
 
