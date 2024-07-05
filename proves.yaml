@@ -5,7 +5,7 @@ anchorLinks:
   - thresholds: &thresholds-fast
       - {color: "green", level: 0}
       - {color: "orange", level: 200}
-      - {color: "red", level: 600}
+      - {color: "red", level: 1}
   - flowAnimation: &flowanim-slow
       thresholdOffValue: 2
       thresholdLwrValue: 10
@@ -55,7 +55,7 @@ cells:
         - {color: "yellow", level: 2099.9}
         - {color: "green", level: 2100}    
     link: *grafana-home
-sallent:
+etap_bagesllobregat_2:
     dataRef: "alarma"
     label:
       separator: "cr"
