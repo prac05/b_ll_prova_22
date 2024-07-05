@@ -50,11 +50,11 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "green", level: 0.99}
+        - {color: "white", level: 0.99}
     fillColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "green", level: 0.99} 
+        - {color: "white", level: 0.99} 
     link: *grafana-home
 
   etap_bagesllobregat_1:
@@ -88,11 +88,11 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "green", level: 0.99}
+        - {color: "none", level: 0.99} 
     fillColor:
       thresholds:
-        - {color: "red", level: 0}
-        - {color: "green", level: 0.99}      
+        - {color: "white", level: 0}
+        - {color: "none", level: 0.99}      
     link: *grafana-home
 
   alarmas:
