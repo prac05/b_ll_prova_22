@@ -505,7 +505,7 @@ cells:
 
 
   a_sallent:
-    dataRef: ("alarma","alarma2")
+    dataRef: ("alarma")
     fillColor:
       thresholds:
         - {color: "red", level: 0}
