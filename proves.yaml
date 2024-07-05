@@ -101,7 +101,14 @@ cells:
     fillColor:
       thresholds:
         - {color: "red", level: 0}
+        - {color: "white", level: 1}
+    link: *grafana-home
+
 
   g0k4u1-eEA1eqAonql-c-9:
     dataRef: "alarma"
-    flowAnimation: *flowanim-slow
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "white", level: 1}
+    link: *grafana-home
