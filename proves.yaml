@@ -95,7 +95,7 @@ cells:
     dataRef: "alarma"
     label:
       separator: "cr"
-      decimalPoints: -1
+      decimalPoints: 1
     labelColor:
       thresholds:
         - {color: "red", level: 1}
