@@ -16,8 +16,13 @@ cells:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
 
+
+
+
 #------------------------------------------------------------------------------
 # DIPÒSITS
+
+
 
   sallent:
     dataRef: "nivell"
@@ -227,9 +232,9 @@ cells:
         - {color: "red", level: 29.99}
         - {color: "yellow", level: 30}
         - {color: "yellow", level: 69.99}
-        - {color: "green", level: 70}    
+        - {color: "green", level: 70}   
 
-  d_termes:
+  d_can_vila:
     dataRef: "nivell"
     label:
       separator: "cr"
@@ -238,19 +243,19 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 319.99}
-        - {color: "yellow", level: 320}
-        - {color: "yellow", level: 749.99}
-        - {color: "green", level: 750}
+        - {color: "red", level: 89.99}
+        - {color: "yellow", level: 90}
+        - {color: "yellow", level: 209.9}
+        - {color: "green", level: 210}
     fillColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 319.99}
-        - {color: "yellow", level: 320}
-        - {color: "yellow", level: 749.99}
-        - {color: "green", level: 750}   
+        - {color: "red", level: 89.99}
+        - {color: "yellow", level: 90}
+        - {color: "yellow", level: 209.9}
+        - {color: "green", level: 210}    
 
-  d_ramonella:
+  d_pirineu:
     dataRef: "nivell"
     label:
       separator: "cr"
@@ -259,61 +264,19 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 114.99}
-        - {color: "yellow", level: 115}
-        - {color: "yellow", level: 269.99}
-        - {color: "green", level: 270}
+        - {color: "red", level: 29.99}
+        - {color: "yellow", level: 30}
+        - {color: "yellow", level: 69.99}
+        - {color: "green", level: 70}
     fillColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 114.99}
-        - {color: "yellow", level: 115}
-        - {color: "yellow", level: 269.99}
-        - {color: "green", level: 270}
+        - {color: "red", level: 29.99}
+        - {color: "yellow", level: 30}
+        - {color: "yellow", level: 69.99}
+        - {color: "green", level: 70}   
 
-  d_turic1:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 49.99}
-        - {color: "yellow", level: 50}
-        - {color: "yellow", level: 114.99}
-        - {color: "green", level: 115}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 49.99}
-        - {color: "yellow", level: 50}
-        - {color: "yellow", level: 114.99}
-        - {color: "green", level: 115}  
-
-  d_casserres:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 134.99}
-        - {color: "yellow", level: 135}
-        - {color: "yellow", level: 314.99}
-        - {color: "green", level: 315}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 134.99}
-        - {color: "yellow", level: 135}
-        - {color: "yellow", level: 314.99}
-        - {color: "green", level: 315}      
-
-  d_prat_vell:
+  d_vista_pirineu1:
     dataRef: "nivell"
     label:
       separator: "cr"
@@ -324,17 +287,17 @@ cells:
         - {color: "red", level: 0}
         - {color: "red", level: 149.99}
         - {color: "yellow", level: 150}
-        - {color: "yellow", level: 349.99}
+        - {color: "yellow", level: 349.9}
         - {color: "green", level: 350}
     fillColor:
       thresholds:
         - {color: "red", level: 0}
         - {color: "red", level: 149.99}
         - {color: "yellow", level: 150}
-        - {color: "yellow", level: 349.99}
-        - {color: "green", level: 350}   
+        - {color: "yellow", level: 349.9}
+        - {color: "green", level: 350}
 
-  d_torrenostra:
+  d_vista_pirineu2:
     dataRef: "nivell"
     label:
       separator: "cr"
@@ -343,19 +306,19 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 12.49}
-        - {color: "yellow", level: 12.5}
-        - {color: "yellow", level: 28.49}
-        - {color: "green", level: 28.5}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 6.9}
+        - {color: "green", level: 7}
     fillColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 12.49}
-        - {color: "yellow", level: 12.5}
-        - {color: "yellow", level: 28.49}
-        - {color: "green", level: 28.5}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 6.9}
+        - {color: "green", level: 7} 
 
-  d_termes_2:
+  d_grau_elevat:
     dataRef: "nivell"
     label:
       separator: "cr"
@@ -364,184 +327,186 @@ cells:
     labelColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 12.49}
-        - {color: "yellow", level: 12.5}
-        - {color: "yellow", level: 28.49}
-        - {color: "green", level: 28.5}
+        - {color: "red", level: 20.99}
+        - {color: "yellow", level: 21}
+        - {color: "yellow", level: 48.9}
+        - {color: "green", level: 49}
     fillColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 12.49}
-        - {color: "yellow", level: 12.5}
-        - {color: "yellow", level: 28.49}
-        - {color: "green", level: 28.5}      
+        - {color: "red", level: 20.99}
+        - {color: "yellow", level: 21}
+        - {color: "yellow", level: 48.9}
+        - {color: "green", level: 49}   
+
+  d_grau:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 134.99}
+        - {color: "yellow", level: 135}
+        - {color: "yellow", level: 314.9}
+        - {color: "green", level: 315}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 134.99}
+        - {color: "yellow", level: 135}
+        - {color: "yellow", level: 314.9}
+        - {color: "green", level: 315} 
+
+
+
+
+      
+#------------------------------------------------------------------------------
+# BOMBES
+
+
+
+  bombament_aigua_crua:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}    
+ 
+  b_cabrianes1:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}    
+
+  b_cabrianes_2:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}   
+
+  b_paloma:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}    
+
+  b_pirineu:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}    
+
+  b_grau_elevat:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}                      
+
+  b_grau_emergencia:
+    dataRef: "cabal"
+    fillColor:
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}                      
+
+
+
+
 
 #------------------------------------------------------------------------------
-# LÍNIES DE TRACTAMENT
-  b_nivell_sandwich:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 2.99}
-        - {color: "yellow", level: 3}
-        - {color: "yellow", level: 7.49}
-        - {color: "green", level: 7.5}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 2.99}
-        - {color: "yellow", level: 3}
-        - {color: "yellow", level: 7.49}
-        - {color: "green", level: 7.5}
+# CABALS
 
-  b_venturi_coagulant:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 2.99}
-        - {color: "yellow", level: 3}
-        - {color: "yellow", level: 7.49}
-        - {color: "green", level: 7.5}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 2.99}
-        - {color: "yellow", level: 3}
-        - {color: "yellow", level: 7.49}
-        - {color: "green", level: 7.5}
 
-  b_arqueixos_filtracio:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 7.99}
-        - {color: "yellow", level: 8}
-        - {color: "yellow", level: 19.99}
-        - {color: "green", level: 20}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 7.99}
-        - {color: "yellow", level: 8}
-        - {color: "yellow", level: 19.99}
-        - {color: "green", level: 20}
 
-  b_bypass_filtracio:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 2.99}
-        - {color: "yellow", level: 3}
-        - {color: "yellow", level: 7.49}
-        - {color: "green", level: 7.5}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 2.99}
-        - {color: "yellow", level: 3}
-        - {color: "yellow", level: 7.49}
-        - {color: "green", level: 7.5}        
 
-  b_arqueixos2_filtracio:
-    dataRef: "nivell"
+  c_sallent:
+    dataRef: "cabal"
     label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 7.99}
-        - {color: "yellow", level: 8}
-        - {color: "yellow", level: 19.99}
-        - {color: "green", level: 20}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 7.99}
-        - {color: "yellow", level: 8}
-        - {color: "yellow", level: 19.99}
-        - {color: "green", level: 20}          
+      separator: ""
+      units: "none"
+      unitsPostfix: "m3/h"
+      decimalPoints: 2
 
-  b_aireacio_primaria:
-    dataRef: "nivell"
+  c_bl_cabrianes:
+    dataRef: "cabal"
     label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 4.99}
-        - {color: "yellow", level: 5}
-        - {color: "yellow", level: 12.49}
-        - {color: "green", level: 12.5}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 4.99}
-        - {color: "yellow", level: 5}
-        - {color: "yellow", level: 12.49}
-        - {color: "green", level: 12.5}        
+      separator: ""
+      units: "none"
+      unitsPostfix: "m3/h"
+      decimalPoints: 2
 
-  b_decantador_primaria:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 4.99}
-        - {color: "yellow", level: 5}
-        - {color: "yellow", level: 12.49}
-        - {color: "green", level: 12.5}
-    fillColor:
-      thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 4.99}
-        - {color: "yellow", level: 5}
-        - {color: "yellow", level: 12.49}
-        - {color: "green", level: 12.5}
 
-  b_floculacio_primaria:
-    dataRef: "nivell"
-    label:
-      separator: "cr"
-      units: "m3"  
-      decimalPoints: 1
-    labelColor:
+
+
+
+#------------------------------------------------------------------------------
+# ALTRES
+
+
+
+
+  arqueta_aigua_crua:
+    dataRef: "cabal"
+    fillColor:
       thresholds:
-        - {color: "red", level: 0}
-        - {color: "red", level: 4.99}
-        - {color: "yellow", level: 5}
-        - {color: "yellow", level: 12.49}
-        - {color: "green", level: 12.5}
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}  
+        - {color: "black", level: 2}                      
+
+
+
+
+
+#------------------------------------------------------------------------------
+# ALARMES 
+
+
+
+  a_etap_bagesllobregat_1:
+    dataRef: "alarma"
     fillColor:
       thresholds:
         - {color: "red", level: 0}
-        - {color: "red", level: 4.99}
-        - {color: "yellow", level: 5}
-        - {color: "yellow", level: 12.49}
-        - {color: "green", level: 12.5}        
+        - {color: "white", level: 1}
+
+
+  a_etap_bagesllobregat_2:
+    dataRef: "alarma"
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "white", level: 1}
+
+
+
+  g0k4u1-eEA1eqAonql-c-9:
+    dataRef: "alarma"
+    strokeColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "white", level: 1}
+
+
+
+  a_sallent:
+    dataRef: "alarma"
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "white", level: 1}
