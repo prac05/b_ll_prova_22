@@ -1,0 +1,547 @@
+anchorLinks:
+  - link: &grafana-home
+      url: "https://grafana.com/"
+      params: "time"
+
+#------------------------------------------------------------------------------
+# Panel Config
+
+gradientMode: "none"
+cellIdPreamble: "cell-"
+cells: 
+  drawio:
+    link:
+      url: "https://app.diagrams.net/?p=svgdata"
+  docs:
+    link:
+      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/README.md"
+
+#------------------------------------------------------------------------------
+# DIPÒSITS
+
+  sallent:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 899}
+        - {color: "yellow", level: 900}
+        - {color: "yellow", level: 2099}
+        - {color: "green", level: 2100}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 899.9}
+        - {color: "yellow", level: 900}
+        - {color: "yellow", level: 2099.9}
+        - {color: "green", level: 2100}    
+
+  etap_bagesllobregat_1:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 33.8}
+        - {color: "yellow", level: 33.9}
+        - {color: "yellow", level: 79}
+        - {color: "green", level: 79.1}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 33.8}
+        - {color: "yellow", level: 33.9}
+        - {color: "yellow", level: 79}
+        - {color: "green", level: 79.1}    
+
+  etap_bagesllobregat_2:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 44.09}
+        - {color: "yellow", level: 44.1}
+        - {color: "yellow", level: 102.8}
+        - {color: "green", level: 102.9}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 44.09}
+        - {color: "yellow", level: 44.1}
+        - {color: "yellow", level: 102.8}
+        - {color: "green", level: 102.9}  
+
+  d_aigua_crua1:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 404.9}
+        - {color: "yellow", level: 405}
+        - {color: "yellow", level: 944.9}
+        - {color: "green", level: 945}    
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 404.9}
+        - {color: "yellow", level: 405}
+        - {color: "yellow", level: 944.9}
+        - {color: "green", level: 945}    
+
+  d_aigua_crua_2:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 404.9}
+        - {color: "yellow", level: 405}
+        - {color: "yellow", level: 944.9}
+        - {color: "green", level: 945}   
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 404.9}
+        - {color: "yellow", level: 405}
+        - {color: "yellow", level: 944.9}
+        - {color: "green", level: 945}      
+
+  d_cabrianes:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 140.9}
+        - {color: "yellow", level: 141}
+        - {color: "yellow", level: 328.9}
+        - {color: "green", level: 329}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 140.9}
+        - {color: "yellow", level: 141}
+        - {color: "yellow", level: 328.9}
+        - {color: "green", level: 329}  
+
+  d_horta_avinyo:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 52.49}
+        - {color: "yellow", level: 52.5}
+        - {color: "yellow", level: 122.49}
+        - {color: "green", level: 122.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 52.49}
+        - {color: "yellow", level: 52.5}
+        - {color: "yellow", level: 122.49}
+        - {color: "green", level: 122.5}
+
+  d_soler:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 89.99}
+        - {color: "yellow", level: 90}
+        - {color: "yellow", level: 209.9}
+        - {color: "green", level: 210}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 89.99}
+        - {color: "yellow", level: 90}
+        - {color: "yellow", level: 209.9}
+        - {color: "green", level: 210}    
+
+  d_turic2:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 299.99}
+        - {color: "yellow", level: 300}
+        - {color: "yellow", level: 699.9}
+        - {color: "green", level: 700}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 299.99}
+        - {color: "yellow", level: 300}
+        - {color: "yellow", level: 699.9}
+        - {color: "green", level: 700}   
+
+  d_paloma:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 29.99}
+        - {color: "yellow", level: 30}
+        - {color: "yellow", level: 69.99}
+        - {color: "green", level: 70}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 29.99}
+        - {color: "yellow", level: 30}
+        - {color: "yellow", level: 69.99}
+        - {color: "green", level: 70}    
+
+  d_termes:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 319.99}
+        - {color: "yellow", level: 320}
+        - {color: "yellow", level: 749.99}
+        - {color: "green", level: 750}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 319.99}
+        - {color: "yellow", level: 320}
+        - {color: "yellow", level: 749.99}
+        - {color: "green", level: 750}   
+
+  d_ramonella:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 114.99}
+        - {color: "yellow", level: 115}
+        - {color: "yellow", level: 269.99}
+        - {color: "green", level: 270}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 114.99}
+        - {color: "yellow", level: 115}
+        - {color: "yellow", level: 269.99}
+        - {color: "green", level: 270}
+
+  d_turic1:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 49.99}
+        - {color: "yellow", level: 50}
+        - {color: "yellow", level: 114.99}
+        - {color: "green", level: 115}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 49.99}
+        - {color: "yellow", level: 50}
+        - {color: "yellow", level: 114.99}
+        - {color: "green", level: 115}  
+
+  d_casserres:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 134.99}
+        - {color: "yellow", level: 135}
+        - {color: "yellow", level: 314.99}
+        - {color: "green", level: 315}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 134.99}
+        - {color: "yellow", level: 135}
+        - {color: "yellow", level: 314.99}
+        - {color: "green", level: 315}      
+
+  d_prat_vell:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 149.99}
+        - {color: "yellow", level: 150}
+        - {color: "yellow", level: 349.99}
+        - {color: "green", level: 350}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 149.99}
+        - {color: "yellow", level: 150}
+        - {color: "yellow", level: 349.99}
+        - {color: "green", level: 350}   
+
+  d_torrenostra:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 12.49}
+        - {color: "yellow", level: 12.5}
+        - {color: "yellow", level: 28.49}
+        - {color: "green", level: 28.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 12.49}
+        - {color: "yellow", level: 12.5}
+        - {color: "yellow", level: 28.49}
+        - {color: "green", level: 28.5}
+
+  d_termes_2:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 12.49}
+        - {color: "yellow", level: 12.5}
+        - {color: "yellow", level: 28.49}
+        - {color: "green", level: 28.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 12.49}
+        - {color: "yellow", level: 12.5}
+        - {color: "yellow", level: 28.49}
+        - {color: "green", level: 28.5}      
+
+#------------------------------------------------------------------------------
+# LÍNIES DE TRACTAMENT
+  b_nivell_sandwich:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 7.49}
+        - {color: "green", level: 7.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 7.49}
+        - {color: "green", level: 7.5}
+
+  b_venturi_coagulant:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 7.49}
+        - {color: "green", level: 7.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 7.49}
+        - {color: "green", level: 7.5}
+
+  b_arqueixos_filtracio:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 7.99}
+        - {color: "yellow", level: 8}
+        - {color: "yellow", level: 19.99}
+        - {color: "green", level: 20}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 7.99}
+        - {color: "yellow", level: 8}
+        - {color: "yellow", level: 19.99}
+        - {color: "green", level: 20}
+
+  b_bypass_filtracio:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 7.49}
+        - {color: "green", level: 7.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 2.99}
+        - {color: "yellow", level: 3}
+        - {color: "yellow", level: 7.49}
+        - {color: "green", level: 7.5}        
+
+  b_arqueixos2_filtracio:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 7.99}
+        - {color: "yellow", level: 8}
+        - {color: "yellow", level: 19.99}
+        - {color: "green", level: 20}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 7.99}
+        - {color: "yellow", level: 8}
+        - {color: "yellow", level: 19.99}
+        - {color: "green", level: 20}          
+
+  b_aireacio_primaria:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 4.99}
+        - {color: "yellow", level: 5}
+        - {color: "yellow", level: 12.49}
+        - {color: "green", level: 12.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 4.99}
+        - {color: "yellow", level: 5}
+        - {color: "yellow", level: 12.49}
+        - {color: "green", level: 12.5}        
+
+  b_decantador_primaria:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 4.99}
+        - {color: "yellow", level: 5}
+        - {color: "yellow", level: 12.49}
+        - {color: "green", level: 12.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 4.99}
+        - {color: "yellow", level: 5}
+        - {color: "yellow", level: 12.49}
+        - {color: "green", level: 12.5}
+
+  b_floculacio_primaria:
+    dataRef: "nivell"
+    label:
+      separator: "cr"
+      units: "m3"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 4.99}
+        - {color: "yellow", level: 5}
+        - {color: "yellow", level: 12.49}
+        - {color: "green", level: 12.5}
+    fillColor:
+      thresholds:
+        - {color: "red", level: 0}
+        - {color: "red", level: 4.99}
+        - {color: "yellow", level: 5}
+        - {color: "yellow", level: 12.49}
+        - {color: "green", level: 12.5}        
