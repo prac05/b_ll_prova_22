@@ -213,8 +213,30 @@ cells:
         - {color: "yellow", level: 699.9}
         - {color: "purple", level: 700}   
 
-  d_paloma:
-    dataRef: "nivell_paloma"
+  d_paloma_1:
+    dataRef: "nivell_paloma_1"
+    label:
+      separator: "cr"
+      units: "%"  
+      decimalPoints: 1
+    labelColor:
+      thresholds:
+        - {color: "orange", level: 0}
+        - {color: "orange", level: 29.99}
+        - {color: "yellow", level: 30}
+        - {color: "yellow", level: 69.99}
+        - {color: "purple", level: 70}
+    fillColor:
+      thresholds:
+        - {color: "orange", level: 0}
+        - {color: "orange", level: 29.99}
+        - {color: "yellow", level: 30}
+        - {color: "yellow", level: 69.99}
+        - {color: "purple", level: 70}
+
+
+  d_paloma_2:
+    dataRef: "nivell_paloma_2"
     label:
       separator: "cr"
       units: "%"  
