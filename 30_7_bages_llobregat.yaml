@@ -381,17 +381,17 @@ cells:
     dataRef: "b_cabrianes_avinyo"
     fillColor:
       thresholds:
-        - {color: "purple", level: 0}
-        - {color: "orange", level: 1}  
-        - {color: "black", level: 2}    
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
+ 
 
   b_cabrianes_2:
     dataRef: "b_cabrianes_artes"
     fillColor:
       thresholds:
-        - {color: "purple", level: 0}
-        - {color: "orange", level: 1}  
-        - {color: "black", level: 2}   
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1} 
+
 
   b_paloma:
     dataRef: "cabal"
