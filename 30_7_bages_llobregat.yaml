@@ -217,7 +217,7 @@ cells:
     dataRef: "nivell_paloma_1"
     label:
       separator: "cr"
-      units: "%"  
+      units: "percentage"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -239,7 +239,7 @@ cells:
     dataRef: "nivell_paloma_2"
     label:
       separator: "cr"
-      units: "%"  
+      units: "percentage"  
       decimalPoints: 1
     labelColor:
       thresholds:
@@ -260,7 +260,7 @@ cells:
     dataRef: "nivell_can_vila"
     label:
       separator: "cr"
-      units: "%"  
+      units: "percentage"  
       decimalPoints: 1
     labelColor:
       thresholds:
