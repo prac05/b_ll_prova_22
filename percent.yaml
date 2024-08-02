@@ -399,21 +399,48 @@ cells:
         - {color: "orange", level: 1}  
         - {color: "black", level: 2}    
  
-  b_cabrianes1:
-    dataRef: "b_cabrianes_avinyo"
+  b_cabrianes_ar1:
+    dataRef: "b_cabrianes_ar1"
     fillColor:
       thresholds:
         - {color: "black", level: 0}
         - {color: "purple", level: 1}  
  
 
-  b_cabrianes_2:
-    dataRef: "b_cabrianes_artes"
+  b_cabrianes_ar2:
+    dataRef: "b_cabrianes_ar2"
     fillColor:
       thresholds:
         - {color: "black", level: 0}
-        - {color: "purple", level: 1} 
+        - {color: "purple", level: 1}  
 
+  b_cabrianes_ar3:
+    dataRef: "b_cabrianes_ar3"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}   
+
+  b_cabrianes_av1:
+    dataRef: "b_cabrianes_av1"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
+
+  b_cabrianes_av2:
+    dataRef: "b_cabrianes_av2"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
+
+  b_cabrianes_av3:
+    dataRef: "b_cabrianes_av3"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
 
   b_paloma:
     dataRef: "cabal"
