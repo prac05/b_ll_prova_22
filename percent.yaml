@@ -474,7 +474,26 @@ cells:
         - {color: "orange", level: 1}  
         - {color: "black", level: 2}                      
 
+  b_paloma_1:
+    dataRef: "b_paloma_1"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
 
+  b_paloma_2:
+    dataRef: "b_paloma_2"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
+
+  b_paloma_3:
+    dataRef: "b_paloma_3"
+    fillColor:
+      thresholds:
+        - {color: "black", level: 0}
+        - {color: "purple", level: 1}  
 
 
 
