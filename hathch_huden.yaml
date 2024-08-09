@@ -584,7 +584,7 @@ cells:
 # HATCH
 
   hatch:
-    dataRef: "nivell_paloma_2"
+    dataRef: "nivell_paloma_1"
     label:
       separator: "cr"
       units: "percent"  
