@@ -583,7 +583,7 @@ cells:
 #------------------------------------------------------------------------------
 # HATCH
 
-  hatch:
+  0qSkCIzafe_-v8wCGT6j-13:
     dataRef: "nivell_paloma_1"
     label:
       separator: "cr"
@@ -592,3 +592,4 @@ cells:
     labelColor:
       thresholds:
         - {color: "black", level: 0}
+        - {color: "pink", level: 0}
