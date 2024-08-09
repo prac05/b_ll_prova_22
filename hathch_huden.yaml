@@ -592,4 +592,7 @@ cells:
     labelColor:
       thresholds:
         - {color: "black", level: 0}
-        - {color: "none", level: 70}
+        - {color: "transparent", level: 70}
+        - {color: "#FFFFFF00", level: 80}
+        - {color: "yellow", level: 50}
+        
