@@ -589,7 +589,7 @@ cells:
       separator: "cr"
       units: "percent"  
       decimalPoints: 1
-    labelColor:
+    fillColor:
       thresholds:
         - {color: "black", level: 0}
         - {color: "transparent", level: 70}
