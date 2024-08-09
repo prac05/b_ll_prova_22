@@ -592,5 +592,3 @@ cells:
     fillColor:
       thresholds:
         - {color: "black", level: 0}
-        - {color: "black", level: 69.99}
-        - {color: "black", level: 70}  
