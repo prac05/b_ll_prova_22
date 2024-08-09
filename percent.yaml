@@ -226,7 +226,7 @@ cells:
         - {color: "yellow", level: 30}
         - {color: "yellow", level: 69.99}
         - {color: "purple", level: 70}
-    hatchfillColor:
+    fillColor:
       thresholds:
         - {color: "orange", level: 0}
         - {color: "orange", level: 29.99}
