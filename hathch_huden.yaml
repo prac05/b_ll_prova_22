@@ -592,4 +592,4 @@ cells:
     labelColor:
       thresholds:
         - {color: "black", level: 0}
-        - {color: "pink", level: 0}
+        - {color: "none", level: 70}
